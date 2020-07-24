@@ -28,8 +28,7 @@
     </header>
     <main>
         <section class="form-group mx-sm-2 mb-2">
-            <label for="searchCity">Search a City:</label>
-            
+            <label for="searchCity">Search a City for Today's Weather:</label>
               <span id="error"></span>
         </section>
         <div class="row">
@@ -40,49 +39,52 @@
                 <button type="search" class="btn btn-primary mb-2" id="searchButton"><i class="fa fa-search"></i></button>
                 
             <!-- City Table List -->
+            
                 <div class="list-group-item-action mx-sm-4 mb-2" id="listCity">
                     <p>List the Weather</p><!--Placeholder to see the text view-->                   
                 </div>
             </form>
         </div>
          <!-- Weather Information Column -->
-         <div class="col-9">
-            <div class="card" id="weatherContainer">Today's Weather
-              <div id="forecastContainer">
-                <div id="currentDay"></div>ß
+         <div class="col-9 weather">
+            <div class="card" id="weatherContainer">
+              <h4>Weather Forecast</h4>
+                <div id="currentDay"></div>
                 <div id="cityName"></div>
                 <div id="temp"></div>
                 <div id="humidity"></div>
                 <div id="uvindex"></div>
-              </div>
+              
             </div>
-            <div class="col-2" id= "day2">
-              <div class="card">
+          </div>
+      <!--Forcast Di-->
+          <div class="row forecast">
+            <div class="column" id= "day2">
+                <img id="icon2">
                 <div id="day2temp"></div>
-                  <img id="icon2">
-                  <div id="day2humidity"></div>
-                </div>
-              </div>
-          <div class="col-8" id= "day3">
-            <img id="icon3">
-            <div id="day3temp"></div>
-            <div id="day3humidity"></div>
+                <div id="day2humidity"></div>
+            </div>
+            <div class="column" id= "day3">
+              <img id="icon3">
+              <div id="day3temp"></div>
+              <div id="day3humidity"></div>
+            </div>
+            <div class="column" id= "day4">
+              <img id="icon4">
+              <div id="day4temp"></div>
+              <div id="day4humidity"></div>
+            </div>
+            <div class="column" id= "day5">
+              <img id="icon5">
+              <div id="day5humidity"></div>
+              <div id="day5temp"></div>
+            </div>
+            <div class="column" id= "day6">
+              <img id="icon6">
+              <div id="day6temp"></div>
+              <div id="day6humidity"></div>
           </div>
-          <div class="col-8" id= "day4">
-            <img id="icon4">
-            <div id="day4temp"></div>
-            <div id="day4humidity"></div>
-          </div>
-          <div class="col-2" id= "day5">
-            <img id="icon5">
-            <div id="day5humidity"></div>
-            <div id="day5temp"></div>
-          </div>
-          <div class="col-2" id= "day6">
-            <img id="icon6">
-            <div id="day6temp"></div>
-            <div id="day6humidity"></div>
-          </div>
+        
        
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
