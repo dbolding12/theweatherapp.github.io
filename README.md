@@ -1,5 +1,5 @@
 # The Weather App
-In this assignment i had to create a weather app that displayed the 5 day forecast. This project entailed pulling a API from the open weather api to gather all of the data to display on the screen when a user inputted a zip code.
+In this assignment i had to create a weather app that displayed the 5 day forecast. This project entailed pulling a API from the open weather api to gather all of the data to display on the screen when a user inputs a zip code.
 
 Link to Website: https://dbolding12.github.io/theweatherapp.github.io/
 
